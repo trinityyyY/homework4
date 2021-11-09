@@ -473,7 +473,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter phrase: ");
-        String phrase = scan.next();
+        String phrase = scan.nextLine();
 
         // преобразовали фразу в последовательность битов
         ArrayList<Integer> binaryCode = convertToBinaryStr(phrase);
@@ -485,7 +485,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Enter synchro link: ");
-        String synchro = scan.next();
+        String synchro = scan.nextLine();
 
         // преобразовали посылку в последовательность битов
         ArrayList<Integer> binarySynchro = convertToBinaryStr(synchro);
